@@ -7,22 +7,38 @@ Implemente a conta bancária comforme o diagrama de classe.
 
 ### Examples
 
-Enter account data  
+* Enter account data  
 Number: 8021  
 Holder: Bob Brown  
 Initial balance: 500.00  
 Withdraw limit: 300.00  
-
 Enter amount for withdraw: 100.00  
 New balance: 400.00  
 
-#### Exception
+#### Exceptions
 
-Enter account data  
+* Enter account data  
 Number: 8021  
 Holder: Bob Brown  
 Initial balance: 500.00  
 Withdraw limit: 300.00  
-
 Enter amount for withdraw: 400.00  
-Withdraw error: The amount exceeds withdraw limit
+Withdraw error: The amount exceeds withdraw limit  
+  
+  
+* Enter account data  
+Number: 8021  
+Holder: Bob Brown  
+Initial balance: 500.00  
+Withdraw limit: 300.00  
+Enter amount for withdraw: 800.00  
+Withdraw error: The amount exceeds withdraw limit  
+  
+  
+* Enter account data  
+Number: 8021  
+Holder: Bob Brown  
+Initial balance: 200.00  
+Withdraw limit: 300.00  
+Enter amount for withdraw: 250.00  
+Withdraw error: Not enough balance
